@@ -1,0 +1,202 @@
+.mediaViewInfo {
+	--web-view-name: aboutme;
+	--web-view-id: aboutme;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: aboutme;
+}
+
+.body{
+	font-family: Poppins;
+	
+	
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectngulo_13 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Grupo_83 {
+	position: absolute;
+	width: 707.771px;
+	height: 183.934px;
+	left: 1078px;
+	top: 348px;
+	overflow: visible;
+}
+
+#Diseadora_Grfica_Colombiana_co {
+	left: 1080px;
+	top: 554.689px;
+	position: absolute;
+	overflow: hidden;
+	width: 726px;
+	height: 464.07012939453125px;
+	line-height: 28.80000114440918px;
+	margin-top: -2.40000057220459px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#HOLA_SOY {
+	left: 1166px;
+	top: 334.189px;
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 100.07011413574219px;
+	line-height: 58.80000305175781px;
+	margin-top: -4.900001525878906px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: bold;
+	font-weight: bold;
+	font-size: 49px;
+	color: rgba(255,255,255,1);
+}
+
+
+#Componente_4__1 {
+	position: absolute;
+	width: 144.049px;
+	height: 205.07px;
+	left: 887.976px;
+	top: 45.185px;
+	overflow: visible;
+	transition: all 0.30000001192092896s ease-out;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: home.html;
+	cursor: pointer;
+}
+#Rectngulo_14 {
+	position: absolute;
+	width: 144.049px;
+	height: 205.07px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+
+*{
+	box-sizing: border-box;
+	
+}
+
+button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.sidebar {
+  position: absolute;
+  overflow: hidden;
+  top: 100px;
+  left: 0;
+  width: 72px;
+  height: 1080px;
+  transition: width 0.4s;
+ background: rgba(255,255,255,0.15)
+}
+
+body.open .sidebar {
+  width: 260px;
+}
+
+.sidebar-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 360px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  padding: 0 1.25rem 0 0;
+  
+}
+
+.sidebar-burger {
+  width: 92px;
+  height: 92px;
+  display: grid;
+  left: 50px;
+  place-items: center;
+  background: url("./imagenes/baja/button/button-34.png") no-repeat center center;
+}
+
+body.open .sidebar-burger {
+  background: url("./imagenes/baja/button/button-35.png") no-repeat no-repeat center center;
+}
+
+
+
+.sidebar-menu {
+  display: grid;
+}
+
+.sidebar-menu > button {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  height: 60px;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 1;
+  padding: 0 25px;
+  background: rgba(255,255,255,0.15)
+}
+
+.sidebar-menu > button.has-border {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  margin-bottom: 1rem;
+}
+
+.sidebar-menu > button > img {
+  width: 45px;
+  height: 45px;
+}
+
+.sidebar-menu > button > a {
+  color: #000000;
+}
+
+.sidebar-menu >button > a:hover {
+	color: #CF0BD6;
+	transition: all 3.2;
+}
+
